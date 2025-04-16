@@ -1,123 +1,140 @@
 
-<!DOCTYPE html>
+""<!DOCTYPE html>
+
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Goitseone Ndlovu | Data Analyst Portfolio</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 20px; background: #f9f9f9; }
-        .container { max-width: 900px; margin: auto; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 0 15px rgba(0,0,0,0.1); }
-        .profile-img { float: right; width: 150px; border-radius: 50%; }
-        h1, h2 { color: #333; }
-        .project { border-bottom: 1px solid #ccc; margin-bottom: 30px; padding-bottom: 20px; }
-        ul { line-height: 1.6; }
-        a.button { background: #0073e6; color: white; padding: 8px 14px; border-radius: 6px; text-decoration: none; display: inline-block; margin-top: 10px; }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Goitseone Ndlovu | Data Analyst Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0d1117;
+      color: white;
+    }
+    header {
+      background-color: #161b22;
+      padding: 1rem;
+      text-align: center;
+    }
+    header img {
+      border-radius: 50%;
+      width: 120px;
+      height: 120px;
+      margin-top: 10px;
+    }
+    h1 {
+      margin-bottom: 0;
+      color: #58a6ff;
+    }
+    .info {
+      font-size: 0.9rem;
+      color: #c9d1d9;
+    }
+    .section {
+      padding: 2rem;
+      border-bottom: 1px solid #30363d;
+    }
+    .section h2 {
+      color: #58a6ff;
+    }
+    .project {
+      background-color: #161b22;
+      padding: 1rem;
+      margin: 1rem 0;
+      border-radius: 10px;
+    }
+    a {
+      color: #58a6ff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <img src="profile_goitseone_ndlovu.jpg" alt="Goitseone Ndlovu" class="profile-img">
-        <h1>Goitseone Ndlovu</h1>
-        <p><strong>Data Analyst | BI Developer</strong></p>
-        <p>Pretoria, Gauteng, South Africa | 073 545 8774 | Goitsee07@gmail.com</p>
-        <p><a href="https://www.linkedin.com/in/goitseendlovu">LinkedIn Profile</a></p>
-
-        <div class="project">
-            <h2>Excel Employment Dashboard</h2>
-            <ul>
-                <li><strong>Questions:</strong>
-                    <ul>
-                        <li>What are the employment trends across provinces in 2023?</li>
-                        <li>Which province had the highest employment growth?</li>
-                        <li>How did employment change quarter-to-quarter?</li>
-                        <li>What regions need policy focus for job creation?</li>
-                    </ul>
-                </li>
-                <li><strong>Steps Taken:</strong>
-                    <ul>
-                        <li>Cleaned and formatted Excel dataset.</li>
-                        <li>Created pivot tables and calculated quarterly trends.</li>
-                        <li>Visualized province-wise trends using charts.</li>
-                        <li>Derived insights from data for policy implication.</li>
-                    </ul>
-                </li>
-                <li><strong>Key Takeaways:</strong>
-                    <ul>
-                        <li>Gauteng led in employment throughout 2023.</li>
-                        <li>Western Cape showed stable quarter-over-quarter growth.</li>
-                        <li>Limpopo had the lowest employment rate.</li>
-                        <li>Q4 showed the highest employment across all provinces.</li>
-                    </ul>
-                </li>
-            </ul>
-            <a class="button" href="projects/Excel_Employment_Analysis.xlsx">Download Excel Dashboard</a>
-            <a class="button" href="Excel_Employment_Report.pptx">Download Full Report</a>
-        </div>
-
-        <div class="project">
-            <h2>Power BI Retail Sales Analysis</h2>
-            <ul>
-                <li><strong>Questions:</strong>
-                    <ul>
-                        <li>Which product categories are top-selling by province?</li>
-                        <li>What are the monthly sales and unit trends in 2023?</li>
-                        <li>How do provinces compare in total revenue?</li>
-                        <li>Which months had peak sales activity?</li>
-                    </ul>
-                </li>
-                <li><strong>Steps Taken:</strong>
-                    <ul>
-                        <li>Imported data into Power BI and cleaned using Power Query.</li>
-                        <li>Used DAX to calculate monthly revenue and units.</li>
-                        <li>Built interactive visuals: bar, line, and pie charts.</li>
-                        <li>Analyzed sales patterns by time and geography.</li>
-                    </ul>
-                </li>
-                <li><strong>Key Takeaways:</strong>
-                    <ul>
-                        <li>Gauteng leads in electronics sales.</li>
-                        <li>Clothing category performs best in KwaZulu-Natal.</li>
-                        <li>Sales peaked in November and December.</li>
-                        <li>Western Cape shows consistent sales volume.</li>
-                    </ul>
-                </li>
-            </ul>
-            <a class="button" href="projects/PowerBI_Retail_Sales.pbix">Download Power BI Dashboard</a>
-            <a class="button" href="PowerBI_Retail_Sales_Report.pptx">Download Full Report</a>
-        </div>
-
-        <div class="project">
-            <h2>Tableau COVID-19 Health Impact</h2>
-            <ul>
-                <li><strong>Questions:</strong>
-                    <ul>
-                        <li>How did COVID-19 case numbers evolve in South Africa?</li>
-                        <li>What was the hospital bed occupancy trend during peaks?</li>
-                        <li>Which provinces faced the most pressure?</li>
-                        <li>What insights can be drawn to strengthen health systems?</li>
-                    </ul>
-                </li>
-                <li><strong>Steps Taken:</strong>
-                    <ul>
-                        <li>Integrated public COVID-19 datasets into Tableau.</li>
-                        <li>Prepared data using SQL and Python cleaning scripts.</li>
-                        <li>Created visual dashboards: trends, maps, KPIs.</li>
-                        <li>Derived policy suggestions based on outcomes.</li>
-                    </ul>
-                </li>
-                <li><strong>Key Takeaways:</strong>
-                    <ul>
-                        <li>Health system faced peak pressure during mid-2021.</li>
-                        <li>Gauteng and Western Cape experienced highest loads.</li>
-                        <li>Data reveals strong correlation between waves and admissions.</li>
-                        <li>Insights can support future epidemic readiness.</li>
-                    </ul>
-                </li>
-            </ul>
-            <a class="button" href="projects/SA_Covid_Health_Tableau_Project.zip">Download Tableau Project</a>
-            <a class="button" href="Tableau_Covid_Health_Report.pptx">Download Full Report</a>
-        </div>
+  <header>
+    <img src="profile.jpg" alt="Goitseone Ndlovu" />
+    <h1>Goitseone Ndlovu</h1>
+    <p class="info">Data Analyst | BI Developer</p>
+    <p class="info">Pretoria, Gauteng, South Africa | 073 545 8774 | <a href="mailto:Goitsee07@gmail.com">Goitsee07@gmail.com</a> | <a href="https://www.linkedin.com/in/goitseendlovu" target="_blank">LinkedIn</a></p>
+  </header>  <div class="section">
+    <h2>Excel Dashboard: Employment in South Africa</h2>
+    <div class="project">
+      <p><strong>1. WHAT ARE THE QUESTIONS I WAS INTERESTED IN ANSWERING?</strong></p>
+      <ul>
+        <li>How have unemployment rates changed over time?</li>
+        <li>Which sectors contribute most to employment?</li>
+        <li>What age group is most affected by unemployment?</li>
+        <li>What is the distribution of employment across provinces?</li>
+      </ul>
+      <p><strong>2. I TOOK THE FOLLOWING STEPS TO CREATE MY ANALYSIS:</strong></p>
+      <ul>
+        <li>Cleaned and prepared the data using Python.</li>
+        <li>Used formulas and pivot tables in Excel to explore trends.</li>
+        <li>Created dynamic charts and slicers for interactivity.</li>
+        <li>Designed a professional dashboard to highlight insights.</li>
+      </ul>
+      <p><strong>3. HERE ARE MY KEY TAKEAWAYS:</strong></p>
+      <ul>
+        <li>Youth unemployment is persistently high.</li>
+        <li>Formal sectors drive most employment, with disparities by province.</li>
+        <li>Policy targeting youth training is essential.</li>
+      </ul>
+      <p><a href="Excel_Employment_Report.pdf" download>Download Full Report (PDF)</a></p>
     </div>
+  </div>  <div class="section">
+    <h2>Power BI: Retail Sales Analysis</h2>
+    <div class="project">
+      <p><strong>1. WHAT ARE THE QUESTIONS I WAS INTERESTED IN ANSWERING?</strong></p>
+      <ul>
+        <li>Which provinces contribute most to revenue?</li>
+        <li>What product categories are the most profitable?</li>
+        <li>Are there seasonal patterns in sales?</li>
+        <li>What is the relationship between discounting and profit?</li>
+      </ul>
+      <p><strong>2. I TOOK THE FOLLOWING STEPS TO CREATE MY ANALYSIS:</strong></p>
+      <ul>
+        <li>Cleaned and merged datasets using Power Query and SQL.</li>
+        <li>Modeled relationships and defined measures using DAX.</li>
+        <li>Built interactive visuals and filters for deep dive insights.</li>
+        <li>Styled the report using consistent dark themes and bookmarks.</li>
+      </ul>
+      <p><strong>3. HERE ARE MY KEY TAKEAWAYS:</strong></p>
+      <ul>
+        <li>Gauteng and Western Cape drive most of the sales.</li>
+        <li>Discounting can reduce profitability despite high volume.</li>
+        <li>Profit margins vary greatly across categories and seasons.</li>
+      </ul>
+      <p><a href="PowerBI_Retail_Report.pdf" download>Download Full Report (PDF)</a></p>
+    </div>
+  </div>  <div class="section">
+    <h2>Tableau: COVID-19 Impact on Health System</h2>
+    <div class="project">
+      <p><strong>1. WHAT ARE THE QUESTIONS I WAS INTERESTED IN ANSWERING?</strong></p>
+      <ul>
+        <li>How did case trends evolve monthly in SA?</li>
+        <li>How strained was hospital capacity over time?</li>
+        <li>What was the mortality trend across months?</li>
+        <li>How effective was the vaccine rollout?</li>
+      </ul>
+      <p><strong>2. I TOOK THE FOLLOWING STEPS TO CREATE MY ANALYSIS:</strong></p>
+      <ul>
+        <li>Collected official health data and cleaned with Python.</li>
+        <li>Loaded datasets into Tableau and built visual stories.</li>
+        <li>Analyzed each phase of pandemic response visually.</li>
+        <li>Styled the dashboard using SA flag theme & dark mode.</li>
+      </ul>
+      <p><strong>3. HERE ARE MY KEY TAKEAWAYS:</strong></p>
+      <ul>
+        <li>Hospital systems were pushed beyond safe thresholds.</li>
+        <li>Deaths followed peak case periods with time lags.</li>
+        <li>Vaccination rollout picked up after March 2021.</li>
+      </ul>
+      <p><a href="Tableau_Health_Report.pdf" download>Download Full Report (PDF)</a></p>
+    </div>
+  </div>
 </body>
-</html>
+</html>""
