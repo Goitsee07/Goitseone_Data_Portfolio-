@@ -1,141 +1,37 @@
 
-""<!DOCTYPE html>
-
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Goitseone Ndlovu | Data Analyst Portfolio</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #0d1117;
-      color: white;
-    }
-    header {
-      background-color: #161b22;
-      padding: 1rem;
-      text-align: center;
-    }
-    header img {
-      border-radius: 50%;
-      width: 120px;
-      height: 120px;
-      margin-top: 10px;
-      border: 2px solid #58a6ff;
-    }
-    h1 {
-      margin-bottom: 0;
-      color: #58a6ff;
-    }
-    .info {
-      font-size: 0.9rem;
-      color: #c9d1d9;
-    }
-    .section {
-      padding: 2rem;
-      border-bottom: 1px solid #30363d;
-    }
-    .section h2 {
-      color: #58a6ff;
-    }
-    .project {
-      background-color: #161b22;
-      padding: 1rem;
-      margin: 1rem 0;
-      border-radius: 10px;
-    }
-    a {
-      color: #58a6ff;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
-</head>
 <body>
   <header>
-    <img src="profile.jpg" alt="Goitseone Ndlovu" />
+    <img src="profile.jpg" alt="Goitseone Ndlovu" class="profile-pic">
     <h1>Goitseone Ndlovu</h1>
-    <p class="info">Data Analyst | BI Developer</p>
-    <p class="info">Pretoria, Gauteng, South Africa | 073 545 8774 | <a href="mailto:Goitsee07@gmail.com">Goitsee07@gmail.com</a> | <a href="https://www.linkedin.com/in/goitseendlovu" target="_blank">LinkedIn</a></p>
-  </header>  <div class="section">
-    <h2>Excel Dashboard: Employment in South Africa</h2>
+    <p>Data Analyst / BI Developer</p>
+    <p><a href="mailto:Goitsee07@gmail.com">Goitsee07@gmail.com</a> | Pretoria, Gauteng, South Africa</p>
+    <p><a href="https://www.linkedin.com/in/goitseendlovu">LinkedIn</a></p>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a passionate and detail-oriented Data Analyst and BI Developer with expertise in transforming complex datasets into clear, actionable insights. Skilled in Excel, Power BI, Tableau, SQL, and Python, I specialize in data visualization and storytelling for South African markets.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+
     <div class="project">
-      <p><strong>1. WHAT ARE THE QUESTIONS I WAS INTERESTED IN ANSWERING?</strong></p>
-      <ul>
-        <li>How have unemployment rates changed over time?</li>
-        <li>Which sectors contribute most to employment?</li>
-        <li>What age group is most affected by unemployment?</li>
-        <li>What is the distribution of employment across provinces?</li>
-      </ul>
-      <p><strong>2. I TOOK THE FOLLOWING STEPS TO CREATE MY ANALYSIS:</strong></p>
-      <ul>
-        <li>Cleaned and prepared the data using Python.</li>
-        <li>Used formulas and pivot tables in Excel to explore trends.</li>
-        <li>Created dynamic charts and slicers for interactivity.</li>
-        <li>Designed a professional dashboard to highlight insights.</li>
-      </ul>
-      <p><strong>3. HERE ARE MY KEY TAKEAWAYS:</strong></p>
-      <ul>
-        <li>Youth unemployment is persistently high.</li>
-        <li>Formal sectors drive most employment, with disparities by province.</li>
-        <li>Policy targeting youth training is essential.</li>
-      </ul>
-      <p><a href="Excel_Employment_Report.pdf" download>Download Full Report (PDF)</a> | <a href="employment_dashboard.xlsx" download>Download Excel Dashboard</a></p>
+      <h3>South African Employment Dashboard (Excel)</h3>
+      <p>Download full project: <a href="excel_project.xlsx" download>Excel Dashboard</a></p>
+      <p>Download Report: <a href="excel_report.pdf" download>View PDF Report</a></p>
     </div>
-  </div>  <div class="section">
-    <h2>Power BI: Retail Sales Analysis</h2>
+
     <div class="project">
-      <p><strong>1. WHAT ARE THE QUESTIONS I WAS INTERESTED IN ANSWERING?</strong></p>
-      <ul>
-        <li>Which provinces contribute most to revenue?</li>
-        <li>What product categories are the most profitable?</li>
-        <li>Are there seasonal patterns in sales?</li>
-        <li>What is the relationship between discounting and profit?</li>
-      </ul>
-      <p><strong>2. I TOOK THE FOLLOWING STEPS TO CREATE MY ANALYSIS:</strong></p>
-      <ul>
-        <li>Cleaned and merged datasets using Power Query and SQL.</li>
-        <li>Modeled relationships and defined measures using DAX.</li>
-        <li>Built interactive visuals and filters for deep dive insights.</li>
-        <li>Styled the report using consistent dark themes and bookmarks.</li>
-      </ul>
-      <p><strong>3. HERE ARE MY KEY TAKEAWAYS:</strong></p>
-      <ul>
-        <li>Gauteng and Western Cape drive most of the sales.</li>
-        <li>Discounting can reduce profitability despite high volume.</li>
-        <li>Profit margins vary greatly across categories and seasons.</li>
-      </ul>
-      <p><a href="PowerBI_Retail_Report.pdf" download>Download Full Report (PDF)</a> | <a href="retail_sales.pbix" download>Download Power BI File</a></p>
+      <h3>Retail Sales Analysis (Power BI)</h3>
+      <p>Download full project: <a href="retail_sales.pbix" download>Power BI File</a></p>
+      <p>Download Report: <a href="powerbi_report.pdf" download>View PDF Report</a></p>
     </div>
-  </div>  <div class="section">
-    <h2>Tableau: COVID-19 Impact on Health System</h2>
+
     <div class="project">
-      <p><strong>1. WHAT ARE THE QUESTIONS I WAS INTERESTED IN ANSWERING?</strong></p>
-      <ul>
-        <li>How did case trends evolve monthly in SA?</li>
-        <li>How strained was hospital capacity over time?</li>
-        <li>What was the mortality trend across months?</li>
-        <li>How effective was the vaccine rollout?</li>
-      </ul>
-      <p><strong>2. I TOOK THE FOLLOWING STEPS TO CREATE MY ANALYSIS:</strong></p>
-      <ul>
-        <li>Collected official health data and cleaned with Python.</li>
-        <li>Loaded datasets into Tableau and built visual stories.</li>
-        <li>Analyzed each phase of pandemic response visually.</li>
-        <li>Styled the dashboard using SA flag theme & dark mode.</li>
-      </ul>
-      <p><strong>3. HERE ARE MY KEY TAKEAWAYS:</strong></p>
-      <ul>
-        <li>Hospital systems were pushed beyond safe thresholds.</li>
-        <li>Deaths followed peak case periods with time lags.</li>
-        <li>Vaccination rollout picked up after March 2021.</li>
-      </ul>
-      <p><a href="Tableau_Health_Report.pdf" download>Download Full Report (PDF)</a> | <a href="health_dashboard.twbx" download>Download Tableau Dashboard</a></p>
+      <h3>COVID-19 Impact on Health System (Tableau)</h3>
+      <p>Download full project: <a href="covid_health_dashboard.twbx" download>Tableau File</a></p>
+      <p>Download Report: <a href="tableau_report.pdf" download>View PDF Report</a></p>
     </div>
-  </div>
+  </section>
 </body>
-</html>""
